@@ -1,15 +1,13 @@
-# fly.toml file generated for polished-sunset-3558 on 2021-11-30T18:02:30-05:00
+# fly.toml file generated for patient-sun-6635 on 2021-11-30T19:47:18-05:00
 
-app = "polished-sunset-3558"
+app = "patient-sun-6635"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
-[build]
-  dockerfile = "./Dockerfile"
-
 [env]
+  port = 8080
 
 [experimental]
   allowed_public_ports = []
